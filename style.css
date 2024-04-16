@@ -1,0 +1,44 @@
+.screen{
+    width: 70vh;
+    max-width: 97vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.play_area{
+    position: relative;
+    width: 90%;
+}
+.board{
+    width: 100%;
+}
+.symbol{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 0%;
+    padding: 5%;
+    display: none;
+}
+.click{
+    position: absolute;
+    cursor: pointer;
+}
+.msg{
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.msg h1{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>TicTacToe Infinity</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="menu">
+            <button onclick="restart()">Start/Restart</button>
+        </div>
+        <div class="play_area">
+            <div class="msg" id="msg"></div>
+            <div class="click" style="top: 0%; left: 0%; width: 34%; height: 34%;" onclick="show(0,0)"></div>
+            <div class="click" style="top: 0%; left: 35%; width: 30%; height: 34%;" onclick="show(0,1)"></div>
+            <div class="click" style="top: 0%; left: 66%; width: 33%; height: 34%;" onclick="show(0,2)"></div>
+            <div class="click" style="top: 35%; left: 0%; width: 34%; height: 29%;" onclick="show(1,0)"></div>
+            <div class="click" style="top: 35%; left: 35%; width: 30%; height: 29%;" onclick="show(1,1)"></div>
+            <div class="click" style="top: 35%; left: 66%; width: 33%; height: 29%;" onclick="show(1,2)"></div>
+            <div class="click" style="top: 65%; left: 0%; width: 34%; height: 34%;" onclick="show(2,0)"></div>
+            <div class="click" style="top: 65%; left: 35%; width: 30%; height: 34%;" onclick="show(2,1)"></div>
+            <div class="click" style="top: 65%; left: 66%; width: 33%; height: 34%;" onclick="show(2,2)"></div>
+            <img src="images/board.png" alt="board" class="board">
+            <img src="images/cross.png" alt="cross1" class="symbol" id="cross0">
+            <img src="images/cross.png" alt="cross2" class="symbol" id="cross1">
+            <img src="images/cross.png" alt="cross3" class="symbol" id="cross2">
+            <img src="images/zero.png" alt="zero1" class="symbol" id="zero0">
+            <img src="images/zero.png" alt="zero2" class="symbol" id="zero1">
+            <img src="images/zero.png" alt="zero3" class="symbol" id="zero2">
+        </div>
+    </div>
+</body>
+</html>
